@@ -408,7 +408,7 @@ def cli(ctx, silent):
 
     transform will run Robotidy with Browser library transformer and handle keyword deprecations.
 
-    translation will generate detaul tranlsation json file from library keywords.
+    translation will generate default translation json file from library keywords.
 
     See each command argument help for more details what (optional) arguments that command supports.
     """
