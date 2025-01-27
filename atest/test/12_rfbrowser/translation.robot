@@ -85,7 +85,7 @@ Compare Translation Files
     ...    \\| focus${SPACE * 30}\\| Documentation update needed${SPACE * 12}\\|
     Should Match Regexp
     ...    ${lines}[7]
-    ...    \\| get_style${SPACE * 26}\\| Keyword tranlsaton is missing checksum \\|
+    ...    \\| get_style${SPACE * 26}\\| Keyword translation is missing checksum \\|
     Should Match Regexp
     ...    ${lines}[8]
     ...    \\| __intro__${SPACE * 26}\\| Documentation update needed${SPACE * 12}\\|
