@@ -67,7 +67,7 @@ Compare Translation Files
     Should Match Regexp
     ...    ${lines}[0]
     ...    Found differences between translation and library, see below for details\.
-    Should Match Regexp    ${lines}[1]    \\| Keyword name${SPACE * 23}\\| Reason${SPACE * 33}\\|
+    Should Match Regexp    ${lines}[1]    \\| Keyword name${SPACE * 23}\\| Reason${SPACE * 34}\\|
     Should Match Regexp
     ...    ${lines}[2]
     ...    \\| ---------------------------------- \\| -------------------------------------- \\|
