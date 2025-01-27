@@ -70,7 +70,7 @@ Compare Translation Files
     Should Match Regexp    ${lines}[1]    \\| Keyword name${SPACE * 23}\\| Reason${SPACE * 34}\\|
     Should Match Regexp
     ...    ${lines}[2]
-    ...    \\| ---------------------------------- \\| -------------------------------------- \\|
+    ...    \\| ---------------------------------- \\| --------------------------------------- \\|
     Should Match Regexp
     ...    ${lines}[3]
     ...    \\| cancel_download${SPACE * 20}\\| Documentation update needed${SPACE * 12}\\|
